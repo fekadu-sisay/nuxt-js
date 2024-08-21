@@ -1,10 +1,8 @@
 <template>
   <div>
-    <nav>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/about">About</NuxtLink>
-      <NuxtLink to="/profile">Profile</NuxtLink>
-    </nav>
+    <Navbar />
     <slot />
   </div>
 </template>
+
+<script setup></script>
